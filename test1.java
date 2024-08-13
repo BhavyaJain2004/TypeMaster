@@ -42,6 +42,7 @@ public class test1 {
     static void test(String x) {
 
         System.out.println(x);
+        System.out.println("\n1");
         System.out.println("Press any key to Start the text");
         String key = sc.nextLine();
         System.out.println("Test Started");
@@ -53,7 +54,7 @@ public class test1 {
                 System.out.println("\n" + "Time's up , Press any key to Continue");
             }
         };
-        timer.schedule(task, 60000); // 60 seconds
+        timer.schedule(task, 30000); // 30 seconds
 
         String usertext = sc.nextLine();
 
