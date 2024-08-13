@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class test1 {
+public class main {
     static Random random = new Random();
     static Scanner sc = new Scanner(System.in);
 
